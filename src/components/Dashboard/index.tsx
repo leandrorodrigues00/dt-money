@@ -3,11 +3,10 @@ import { TransactionsTable } from "../TransactionsTable";
 import { Container } from "./styles";
 
 export function DashBoard() {
-    return (
-         <Container>
-             <Summary/>
-            <TransactionsTable/>
-
-         </Container>
-    );
+  return (
+    <Container>
+      <Summary />
+      <TransactionsTable />
+    </Container>
+  );
 }
